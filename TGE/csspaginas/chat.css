@@ -1,0 +1,74 @@
+#chatsMenu{
+    background-color: #2D2D2D;
+    text-align: center;
+    padding: 4vh 3vw 54.6vh 2vw;
+    width: 14vw;
+    color: white;
+    border-right: black solid 2px;
+    display:inline-block;
+
+}
+.chatJogo{
+    width: 12vw;
+    height: 12vh;
+    margin-bottom: 1vh;
+    border: black solid 2px;
+}
+#chatsMenu h1{
+margin-bottom: 1.8vh;
+}
+.bgChat{
+    background-color: #3B3E42;
+    border: solid black 2px;
+    padding-top: 1vh;
+    
+}
+.lobby{
+    background-color: #3B3E42;
+    border: solid black 1px;
+    width: 7vw;
+    margin-left: 3vw;
+
+}
+
+.hoversChat{
+    margin-bottom: 1vh;
+}
+.hoversChat:hover{
+    background-color: #2e2f31;
+    color: rgb(255, 255, 255);
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+
+    
+}
+.hoversChat:hover .lobby{
+    border-top: none;
+    border-bottom: none;
+}
+#caixaTexto{
+  float: right;
+  margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#usuariosLogados{
+    background-color: #2D2D2D;
+    float: right;
+    text-align: center;
+    padding: 4vh 3vw 81.9vh 2vw;
+    width: 14vw;
+    color: white;
+    border-left: black solid 2px;
+}
+
+#iframes{
+    position: absolute;
+    width: 61.8vw;
+    height: 88.9vh;
+    border: none;
+    overflow-x:hidden;
+}
+#nomess{
+    display: none;
+}

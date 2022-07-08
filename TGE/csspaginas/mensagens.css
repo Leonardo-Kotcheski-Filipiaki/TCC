@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+
+}
+#mensagens{
+    width: 100vw;
+    height: 100vh;
+    background-color: #424141;
+    overflow-y: scroll;
+    
+}
+#divInput{
+    position: fixed;
+    bottom: 0;
+  
+    padding: 1vh 6vw 1vh 7vw;
+    background-color: #2D2D2D;
+}
+#input{
+    width: 86.3vw;
+    height: 4vh;
+    border: 2px solid black;
+   border-radius: 10px;
+    
+   
+   
+
+
+}
