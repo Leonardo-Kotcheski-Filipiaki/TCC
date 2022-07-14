@@ -1,0 +1,24 @@
+#perfil_perfil{
+    border: solid #424549 2px;
+    border-radius: 1vh 1vh 1vh 1vh;
+    color: white;
+    padding: 0 3.76vw 0 1vh;
+    
+    margin: 0;
+}
+#perfil_Editperfil{
+    border: solid #424549 2px;
+    border-radius: 1vh 1vh 1vh 1vh;
+    padding: 0 3.76vw 0 1vh;
+    
+    margin: 1vh 0 1vh 0;
+}
+#perfil_seguranca{
+    border: solid black 2px;
+    border-radius: 1vh 1vh 1vh 1vh;
+    background-color: #3B3E42;
+    padding: 0 3.76vw 0 1vh;
+    
+    margin: 0 ;
+  
+}

@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+/*nav*/
+#nav{    
+  
+    background-color: #26292E; 
+    padding:0.6vh 0 0.9vh 0;
+    border-bottom: 1px solid black;
+}
+
+#perfil_link{
+    float: right;
+    margin: 1vh 3vw 0 0;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    
+}
+#nick{
+margin: 0.5vh 0 0 0.8vh;
+
+color: white;
+}
+
+/*body */
+body{
+background-color: #36393E;
+}
+
+/*bem vindo*/
+#registrar a{
+    color:black;
+}
+#welcome{
+    text-align: center;
+    padding: 3vh 3vw 3vh 3vw;
+    background-color: #26292E;
+    width: max-content;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top:4vh;
+    color: white;
+    border-radius: 3rem;
+    font-size: 1.5vw;
+    
+}
+#registrar{
+    background-color: #3CB51E;
+    font-size: 2vw;
+    border: black solid 0.3vh;
+    border-radius: 3rem;
+    padding: 2vh 2vw 2vh 2vw;;
+    margin-top: 4vh;
+    margin-left: auto;
+}
+#div_registro{
+    text-align: center;
+}
+#TGE{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-top: 2vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+/* carousel*/
+#jogos{
+    margin-top: 3.5vw;
+    width: 90vw;
+   
+margin-left: 5vw;
+}
+#carousel{
+   width: 100%;
+  
+
+}
+.imagem{
+width: 100%;
+height: 100%;
+
+}
+.img{
+    margin-right: 0.1vw;
+    width: 16%;
+    border: solid black 1px;
+}
+.img:hover{
+    transform: scale(1.2, 1.2);
+
+}
+/*template perfil*/
+#aba_perfil{
+    color: white;
+    background-color: #424549;
+    float: left;
+    text-align: left;
+    padding: 4vh 3vw 64.8vh 2vw;
+    width: 14vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfilitem{
+    margin-left: 3px;
+    font-size: 2.5vh;
+    padding: 0 4vw 0 1vh;
+
+}
+#logoimg{
+    margin-left: 1vw;
+    width: 80px;
+    height: 58px;
+}
+#opcoesperfil{
+    margin-bottom: 3vh;
+    padding-left: 1vw;
+    margin-left: 3px;
+}
+ul{
+    padding: 0;
+}
+#nick a{
+    
+    color: white;
+}
+.perfilLinks{
+    color: white;
+}
+#perfil_opcoes{
+    z-index: 4;
+    margin-top: 40px;
+    position: absolute;
+    width: 194px;
+    background-color:#26292E;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    border-bottom-left-radius:15% ;
+    border-bottom-right-radius:15% ;
+}
+.perfOP:hover{
+   border-color: red;      
+}
+.perfOP{
+    padding-top: 5px;
+    border-bottom: 2px solid black ;
+    border-radius: 30%;
+}
+.perfOP a:hover{
+    color: red;
+}
+.perfOP a{
+
+    color: white;
+}
+
+@media screen and (max-width: 1060px) and (min-width: 921px){
+    .img{
+        width: 25%;
+    }
+    
+    #carousel{
+        width: 69%;
+        margin-left: 21vw;
+     }
+    #jogos{
+        margin-top: 10vw;
+        width: 90vw;
+        position: absolute;
+        padding-bottom: 2vw;
+    }
+    
+    #TGE{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    #perfil_opcoes{
+        width: 185px;
+    }
+    
+  
+}
+@media screen and (max-width: 920px) and (min-width: 901px){
+    .img{
+        width: 25%;
+    }
+    
+    #carousel{
+        width: 89%;
+        margin-left: 14vw;
+     }
+    #jogos{
+        margin-top: 10vw;
+        width: 90vw;
+        position: absolute;
+    }
+    
+    #TGE{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+  #welcome{
+    width: 50vw;
+    font-size: 17px;
+  }
+  #registrar{
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-left: auto;
+  }
+#TGE{
+    font-size: 25px;
+}
+#perfil_opcoes{
+   
+      
+    width: 186px;
+    
+}
+}
+
+@media screen and (max-width: 900px) and (min-width: 701px){
+   
+.img{
+    width: 20%;
+}
+#carousel{
+    position: fixed;
+    margin-left: 4.5vw;
+    
+ }
+#jogos{
+    width: 90vw;
+  
+}
+#TGE{
+    width: 90vw;
+    margin-left: 5vw;
+}
+#welcome{
+    width: 50vw;
+}
+#perfil_opcoes{
+    font-size: 23px;
+        width: 185px;
+}
+#logoimg{
+    width: 65px;
+    height: 50px;
+}
+
+}
+@media screen and (max-width: 700px) and (min-width: 401px){
+    #jogos{
+        width: 90vw;
+        margin-left: 12vw;
+        
+     
+    }
+#logoimg{
+    width: 60px;
+    height: 45px;
+}
+#logo{
+    width: 100vw;
+}
+#icon{
+   
+    width: 25px;
+    height: 30px;
+    
+}
+#nick{
+    font-size: 20px;
+}
+    .img{
+        width: 25%;
+    }
+    #TGE{
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 3.5vw;
+    }
+    #registrar{
+        font-size: 3vw;
+        margin-top: 4vh;
+        margin-left: auto;
+    }
+    
+    #welcome{
+        margin-top:7vh;
+        color: white;
+        border-radius: 3rem;
+        font-size: 3vw;  
+    }
+    #carousel{
+        margin-top: 8vw;
+        position: fixed;
+       width: 90vw;
+       margin-left: 2.5vw;
+     }
+    #perfil_link{
+        margin-top: 10px;
+        
+    }
+    #perfil_opcoes{
+        font-size: 20px;
+      
+        width: 150px;
+        
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 300px){
+    #jogos{
+        width: 90vw;
+        margin-left: 12vw;
+        
+     
+    }
+#logoimg{
+    width: 60px;
+    height: 45px;
+}
+#logo{
+    width: 100vw;
+}
+#icon{
+    width: 25px;
+    height: 30px;
+    
+}
+#nick{
+    font-size: 20px;
+}
+    .img{
+        width: 25%;
+    }
+    #TGE{
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 3.5vw;
+    }
+    #registrar{
+        font-size: 3vw;
+        margin-top: 4vh;
+        margin-left: auto;
+    }
+    
+    #welcome{
+        margin-top:7vh;
+        color: white;
+        border-radius: 3rem;
+        font-size: 3vw;  
+    }
+    #carousel{
+        margin-top: 8vw;
+        position: fixed;
+       width: 90vw;
+       margin-left: 2.5vw;
+     }
+    #perfil_link{
+        margin-top: 10px;
+       
+    }
+    #nav{
+        padding: 0;
+    }
+    #perfil_opcoes{
+      
+        font-size: 18px;
+        width: 150px;
+        
+    }
+    }
+@media screen and (max-width: 299px) and (min-width: 200px){
+    #perfil_opcoes{
+     
+    font-size: 15px;
+    width: 120px;
+        
+    }
+    #jogos{
+        width: 90vw;
+        margin-left: 12vw;
+        
+     
+    }
+#logoimg{
+    width: 60px;
+    height: 40px;
+}
+#logo{
+    width: 100vw;
+}
+#icon{
+    width: 25px;
+    height: 30px;
+    
+}
+#nick{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+    .img{
+        width: 25%;
+    }
+    #TGE{
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 3.5vw;
+    }
+    #registrar{
+        font-size: 3vw;
+        margin-top: 4vh;
+        margin-left: auto;
+    }
+    
+    #welcome{
+        margin-top:7vh;
+        color: white;
+        border-radius: 3rem;
+        font-size: 3vw;  
+    }
+    #carousel{
+        margin-top: 8vw;
+        position: fixed;
+       width: 90vw;
+       margin-left: 2.5vw;
+     }
+    #perfil_link{
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+}
